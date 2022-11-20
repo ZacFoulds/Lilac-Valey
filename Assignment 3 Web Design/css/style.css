@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+/* ==========BASIC UNIVERSAL STYLING & CLEAN UP============= */
+    /* some basic css resetting */
+body { margin: 0; box-sizing: border-box; 
+       
+
+
+
+
+        background:fixed linear-gradient(to right, #BE7151 10%, #CE9960 20%, #E2Dac3 50%)
+
+       /* background:repeating-linear-gradient(to right,  #BE7151 15%, #CE9960 15%, #E2Dac3 70%); */
+    }
+
+a { text-decoration: none; color:black; }
+
+
+
+
+body img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+body h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Kenia', cursive;
+}
+
+body h2{
+    text-align: center;
+    
+    font-family: 'Kenia', cursive;
+}
+
+body h3{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Kenia', cursive;
+}
+
+body h4{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Kenia', cursive;
+}
+
+body p {
+    font-family: Merienda, cursive;
+    font-size: 20px;
+ 
+
+}
+
+body section{
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+
+
+/* ==========HEADER============= */
+
+Header{
+    background-color: #A34730;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-height: 5.5%;
+    display: flex;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+Header h1{
+    font-size: 30px;
+    color: black;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+/* ==========LOGO============= */
+Header img{
+    
+    max-height: 75px;
+    max-width: 75px;
+    padding: 25px;
+}
+
+
+
+
+
+
+/* ==========NAVIGATION============= */
+.nav{
+    padding: 30px;
+    float: right;
+    margin-left: 10%;
+    margin-top: 1%;
+    justify-content: right;
+    font-family: 'Kenia', cursive;
+    font-size: 20px;
+}
+
+.nav a{
+    font-size: 20px;
+    font-family: 'Kenia', cursive;
+    background-color: #BE7151;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav a:hover{
+    background-color: #A34730;
+    color: white;
+}
+
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.part1{
+    float: left;
+    width: 40%;
+    margin-top: 7.5%;
+   
+}
+
+
+
+.part2{
+    float: right;
+    width: 40%;
+    
+
+}
+
+.part2 img{
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+    margin-right: -20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    
+}
+
+
+/* ==========MAIN BODY CONTENT============= */
+
+
+
+
+/* ==========AboutSTYLING============= */
+
+#About img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+
+/* ==========Booking_form 2 STYLING============= */
+
+.booking_form_wrapper{
+    
+    display: flex;
+   justify-content: center;
+}
+
+#booking_form{
+    font-family: Merienda, cursive;
+    margin: 0, auto;
+    font-size: 30px; 
+    height: fit-content;
+    width: 390px;
+    overflow: hidden;
+    
+}
+
+#booking_form  * {
+    padding: 10px;
+}
+
+
+
+#booking_form input{
+    margin-top: 10px;
+}
+ 
+.reviews {
+    display: block;
+    float: right;
+    
+    
+    margin-left: 20%;
+    width:350px;
+    text-align: center;
+}
+
+.review{
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.review p {
+    margin-top: -15px;
+    font-size: 15px !important;
+}
+
+.review h3{
+    margin-top: -10px;
+   
+}
+
+
+
+
+/* ==========Gallery STYLING============= */
+
+.image_wrapper{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.image_wrapper img{
+    width: 400px;
+    height: 400px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+
+figcaption{
+    text-align: center;
+    margin-top: 15px;
+    padding: 0;
+}
+
+#Gallery img:hover{
+    transform: scale(1.5);              
+    transition: 0.5s;
+}
+
+#Gallery p{
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* ==========CONTACT STYLING============= */
+
+
+
+.contact_wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_wrapper div{
+    font-family: 'Kenia', cursive;
+    padding: 10px;
+   
+}
+
+
+
+.contact_wrapper * legend{
+    font-size: 30px;
+    
+    font-weight: bold;
+}
+
+.contact_wrapper * fieldset{
+    border: none;
+}
+
+
+.contact_wrapper * textarea{
+    width:250px;
+    height:250px;
+}
+
+.contact_wrapper * label{
+    font-size: 20px;
+    
+}
+
+.leave_review{
+    float: right;
+    width: 40%;
+    
+}
+
+.contact_wrapper * button{
+    font-size: 20px;
+    font-family: 'Kenia', cursive;
+    background-color: #BE7151;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact_wrapper * button:hover{
+    background-color: #CE9960;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.5);  
+    cursor: pointer;
+    
+}
+
+.contact{
+    float: left;
+    width: 40%;
+    margin-left: 20%;
+}
+
+
+
+
+/* ==========FOOTER STYLIING============= */
+
+.location_wrapper div{
+    display: flex;
+    justify-content: center;
+}
+
+.location_map{
+    width:50%;
+    float:right;
+    margin-top: 2.5%;
+}
+
+.location_details{
+    width:30%;
+    float:left;
+   
+}
+.location_details p{
+    font-size: 20px;
+    
+    white-space: wrap;
+    
+}
+
+.location_details h3{
+    font-size: 24px;
+    
+}
+
+
+#map{
+    padding: 25px;;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+/* ==========RESPONSIVE DESIGN============= */
+
+/* ===== 5K RETINA MAC LABS: Media queries for Curtin Uni mac lab testing only ===== */
+@media only screen and (max-width: 5120px) {
+
+        
+}
+
+/* ===== DESKTOP HD: Media queries for most HD desktops ===== */
+@media only screen and (max-width: 1920px) {
+   
+    
+    
+}
+
+/* ===== SMALL DESKTOP: Media queries for laptop/small desktop ===== */
+@media only screen and (max-width: 1366px) { 
+
+      
+    
+}
+
+/* ===== TABLET: Media queries for verticle and horizontal ===== */
+@media only screen and (max-width: 1024px) { 
+
+      
+    
+}
+
+@media only screen and (max-width: 768px) { 
+
+    
+        
+}
+
+/* ===== MOBILE: Media queries for small mobile resolution. ===== */
+@media only screen and (max-width: 640px) { 
+
+    
+        
+}
+
+
+@media only screen and (max-width: 360px) { 
+
+            
+        
+}
+
